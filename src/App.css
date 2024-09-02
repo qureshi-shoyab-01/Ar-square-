@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+::selection {
+    background-color: skyblue;
+}
+@font-face {
+    font-family: primary;
+    src: url(../public/font/JosefinSans-Italic-VariableFont_wght.ttf);
+  }
