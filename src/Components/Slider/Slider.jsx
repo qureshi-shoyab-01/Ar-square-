@@ -1,6 +1,5 @@
 import React from 'react'
 import './slider.css';
-import '../responsive/respon.css'
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';

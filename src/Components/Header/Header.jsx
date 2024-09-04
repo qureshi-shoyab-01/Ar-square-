@@ -26,7 +26,7 @@ const Header = () => {
             <div className="Header_First-Content">
                 <div className="Header_mail_content">
                     <a href="mailto:arsquarechomu@gmail.com">
-                        <EmailIcon />
+                        <EmailIcon className='Header-icon' />
                     </a>
                     <a href="mailto:arsquarechomu@gmail.com">
                         <p> arsquarechomu@gmail.com</p>
@@ -35,7 +35,7 @@ const Header = () => {
                 </div>
                 <div className="Header_mail_content">
                     <a href="tel:+919783717366">
-                        <PhoneInTalkIcon />
+                        <PhoneInTalkIcon className='Header-icon' />
                     </a>
 
                     <a href="tel:+919783717366">
