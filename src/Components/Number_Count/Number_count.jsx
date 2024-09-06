@@ -60,28 +60,28 @@ const Number_count = () => {
             <section className="py-5 min-vh-10 Number-main">
                 <div className="container">
                     <div className="row justify-content-center text-center">
-                        <div className="col-md-3 col-sm-6">
+                        <div className="col-md-3 col-sm-6 col-6">
                             <div className="box_of_numbers">
                                 <span ref={count1Ref} className="display-4">0</span>
                                 <small>+</small>
                                 <p>Students Enrollment</p>
                             </div>
                         </div>
-                        <div className="col-md-3 col-sm-6">
+                        <div className="col-md-3 col-sm-6 col-6">
                             <div className='box_of_numbers'>
                                 <span ref={count2Ref} className="display-4">0</span>
                                 <small>+</small>
                                 <p>Placements</p>
                             </div>
                         </div>
-                        <div className="col-md-3 col-sm-6">
+                        <div className="col-md-3 col-sm-6 col-6">
                             <div className='box_of_numbers'>
                                 <span ref={count3Ref} className="display-4">0</span>
                                 <small>+</small>
                                 <p>Review</p>
                             </div>
                         </div>
-                        <div className="col-md-3 col-sm-6">
+                        <div className="col-md-3 col-sm-6 col-6">
                             <div className='box_of_numbers'>
                                 <span ref={count4Ref} className="display-4">0</span>
                                 <small>+</small>
