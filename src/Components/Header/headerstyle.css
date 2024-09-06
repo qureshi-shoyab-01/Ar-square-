@@ -74,8 +74,7 @@
     width: 100%;
     height: 98%;
     margin: 0px;
-}
-.Header_main-content .navbar {
+} .navbar {
     width: 80%;
     height: 100%;
     display: flex;
@@ -140,10 +139,31 @@
     cursor: pointer;
     color: deepskyblue;
 }
+.offcanvas {
+    position: fixed;
+    bottom: 0;
+    z-index: 1050;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    visibility: hidden;
+    background-color: #01010169;
+    background-clip: padding-box;
+    outline: 0;
+    transition: transform .3s ease-in-out;
+}
+
+button.btn.btn-primary {
+    display: none;
+}
+
 
 @media only screen and (min-width: 280px) and (max-width: 576px){
    .Header_mail_content svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.Header-icon.css-i4bv87-MuiSvgIcon-root {
         width: 14px;
+    }
+    button.btn.btn-primary {
+        display: block;
     }
     .Header_First-Content .Header_mail_content p {
         margin: 8px 0px 5px 4px;
@@ -188,7 +208,7 @@
         z-index: -1;
         border: 2px solid #043988;
     }
-    .Header_main-content .navbar {
+     .navbar {
         width: 80%;
         height: 100%;
         display: flex;
@@ -196,5 +216,52 @@
         align-items: center;
         flex-wrap: nowrap;
         display: none;
+    }
+    .navbar_phone {
+        width: 80%;
+        height: 100%;
+        display: flex;
+     
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+    .Header_main-content_phone .navbar_phone ul {
+        margin: 0px;
+        padding: 0px;
+    }
+    .Header_main-content_phone .navbar_phone li {
+        list-style: none;
+   
+        margin: 22px 10px;
+        font-size: 20px;
+        font-weight: 600;
+        text-transform: capitalize;
+        font-family: auto;
+        position: relative;
+    }
+    .navbar_phone li .Job-courses-details_phone {
+        background-color: #ffffff;
+        width: 300px;
+        height: 0px;
+        box-shadow: 0px 0px 1px;
+        position: absolute;
+        top: 60px;
+        left: 0px;
+        border-radius: 0px 0px 5px 5px;
+        overflow: hidden;
+        transition: 0.5s;
+        z-index: 999;
+    }
+    /* .Header_main-content_phone .navbar_phone  li:hover .Job-courses-details_phone{
+        height: 420px;
+        border-bottom: 5px solid deepskyblue;
+        color: #000;
+    
+    } */
+    .offcanvas-header {
+        display: flex;
+       
+        justify-content: end;
+        padding: 15px;
     }
 }
