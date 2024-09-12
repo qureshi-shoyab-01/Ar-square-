@@ -14,27 +14,20 @@
   margin: 0px 0px 0px 0px;
 }
 .box_of_numbers .display-4 {
-  font-weight: 600;
+  font-weight: 400;
 }
 .box_of_numbers small {
   position: relative;
-  left: 0px;
-  top: -6px;
+  left: 5px;
+  top: 0px;
   font-size: 48px;
-}
-.box_of_numbers b {
-  position: relative;
-  top: -3px;
-  left: 0px;
-  font-size: 48px;
-  font-weight: 400;
 }
 .box_of_numbers p {
-  font-size: 25px;
+  font-size: 22px;
   font-weight: 600;
 }
 
-@media only screen and (min-width: 350px) and (max-width: 576px) {
+@media only screen and (min-width: 350px) and (max-width: 767px) {
   .Number-main {
     background-repeat: round;
     background-size: cover;
@@ -73,4 +66,10 @@
     font-size: 18px;
     font-weight: 400;
   }
+}
+@media only screen and (min-width: 767px) and (max-width: 992px){
+  .box_of_numbers p {
+    font-size: 13px;
+    font-weight: bold;
+}
 }

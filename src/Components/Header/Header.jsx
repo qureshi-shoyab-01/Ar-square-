@@ -1,6 +1,6 @@
 import React from 'react'
 import './headerstyle.css';
-
+import './HeaderRes.css';
 import EmailIcon from '@mui/icons-material/Email';
 import PhoneInTalkIcon from '@mui/icons-material/PhoneInTalk';
 import { useGSAP } from '@gsap/react';
@@ -42,7 +42,7 @@ const Header = () => {
                         <p>978-371-7366</p>
                     </a>
                     <a href="tel:+919783717366">
-                        <p>937-636-7347</p>
+                        <p>773-283-7173</p>
                     </a>
                 </div>
             </div>
@@ -112,7 +112,8 @@ const Header = () => {
       <button
         type="button"
         className="btn-close text-reset"
-        data-bs-dismiss="offcanvas"/>
+        data-bs-dismiss="offcanvas"
+        />
     </div>
     <div className="offcanvas-body">
     <div className="Header_main-content_phone">
@@ -180,7 +181,7 @@ const Header = () => {
     data-bs-toggle="offcanvas"
     data-bs-target="#demo"
   >
-   <ClearAllIcon/>  
+   <ClearAllIcon />  
   </button>
 </>
 </l>

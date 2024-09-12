@@ -1,84 +1,78 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-html,body{
-    height: 100%;
-    width: 100%;
-    background-color: #000;
-    overflow-x: hidden;
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #000;
+  overflow-x: hidden;
 }
 
 /* crd id css start */
 
-
-#crd{
-    height: auto;
-    width: 100%;
-    box-shadow: 0px 0px 5px;
-    margin: 0px 0px 0px 0px;
-    padding: 100px 0px 100px 0px;
-    /* background: linear-gradient(45deg,rgba(105, 105, 226, 0.65),rgba(223, 127, 127, 0.564)); */
-    text-align: center;
-    align-items: center;
-    background-image: url(../../../public//img/study.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    filter: brightness(90%);
-    position: relative;
-    background-blend-mode: multiply;
-    
+#crd {
+  height: auto;
+  width: 100%;
+  box-shadow: 0px 0px 5px;
+  margin: 0px 0px 0px 0px;
+  padding: 100px 0px 100px 0px;
+  /* background: linear-gradient(45deg,rgba(105, 105, 226, 0.65),rgba(223, 127, 127, 0.564)); */
+  text-align: center;
+  align-items: center;
+  background-image: url(../../../public//img/study.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  filter: brightness(90%);
+  position: relative;
+  background-blend-mode: multiply;
 }
 #crd h1 {
-    font-size: 62px;
-    color: transparent;
-    font-family: primary;
-    text-shadow: 1px 0px 0px #fff;
-    font-weight: 500;
-    position: absolute;
-    padding: 0px 0px 0px 0px;
-    top: 50px;
-    left: 0px;
+  font-size: 62px;
+  color: transparent;
+  font-family: primary;
+  text-shadow: 1px 0px 0px #fff;
+  font-weight: 500;
+  position: absolute;
+  padding: 0px 0px 0px 0px;
+  top: 50px;
+  left: 0px;
 }
 #crd span {
-    color: #fff;
+  color: #fff;
 }
 .bg {
-    height: 100%;
-    width: 100%;
-    background-color: #000000bf;
-    position: absolute;
-    top: 0;
-    left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #000000bf;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 /* crd css end */
 
-
 /* Display div css start */
 
+.Display {
+  height: 450px;
 
-.Display{
-    height: 450px;
- 
-    position: relative;
-    border-radius: 10px;
-    margin: 100px 0px 100px 0px;
-    
-
-   
+  position: relative;
+  border-radius: 10px;
+  margin: 100px 0px 100px 0px;
 }
 
-.Display img{
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    filter: brightness(75%);
+.Display img {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  filter: brightness(75%);
 }
 
 /* display div css end */
@@ -86,15 +80,15 @@ html,body{
 /* dc div css start */
 
 .dc {
-    height: 250px;
-    /* box-shadow: 0px 0px 1px #fff; */
-    margin: 0px 0px 30px 0px;
-    padding: 0px 0px 0px 0px;
-    position: relative;
-    /* border: 1px solid #fff; */
-    background-color: #483f3f82;
-    display: flex;
-    justify-content: center;
+  height: 250px;
+  /* box-shadow: 0px 0px 1px #fff; */
+  margin: 0px 0px 30px 0px;
+  padding: 0px 0px 0px 0px;
+  position: relative;
+  /* border: 1px solid #fff; */
+  background-color: #483f3f82;
+  display: flex;
+  justify-content: center;
 }
 /* .dc:hover{
     
@@ -102,321 +96,167 @@ html,body{
     color: orange;
 } */
 .dc::after {
-    content: '';
-    position: absolute;
-    top: 17px;
-    left: 12px;
-    height: 90%;
-    width: 90%;
-    border: 2px solid #1e4d9c;
-    clip-path: circle(20% at 0 0);
-    transition: 0.8s;
+  content: "";
+  position: absolute;
+  top: 17px;
+  left: 12px;
+  height: 90%;
+  width: 90%;
+  border: 2px solid #1e4d9c;
+  clip-path: circle(20% at 0 0);
+  transition: 0.8s;
 }
 
 .dc::before {
-    content: '';
-    position: absolute;
-    top: 17px;
-    left: 12px;
-    height: 90%;
-    width: 90%;
-    border: 2px solid rgb(153 91 212);
-    clip-path: circle(20% at 0 0);
-    transform: rotateZ(180deg);
-    transition: 0.8s;
+  content: "";
+  position: absolute;
+  top: 17px;
+  left: 12px;
+  height: 90%;
+  width: 90%;
+  border: 2px solid rgb(153 91 212);
+  clip-path: circle(20% at 0 0);
+  transform: rotateZ(180deg);
+  transition: 0.8s;
 }
-.dc:hover:after{
-    transition: 0.8s;
-    clip-path: circle(95% at 0 0);
+.dc:hover:after {
+  transition: 0.8s;
+  clip-path: circle(95% at 0 0);
 }
-.dc:hover:before{
-    transition: 0.8s;
-    clip-path: circle(95% at 0 0);
+.dc:hover:before {
+  transition: 0.8s;
+  clip-path: circle(95% at 0 0);
 }
 
 /* dc div css end */
 
 /* main div css start */
 
-.main-1{
-    width: 100%;
-    overflow-y: scroll;
-    overflow-x: hidden;
-    height: 450px;
-    transition: 0.5s;
-    margin: 100px 0px 100px 0px;
-    
+.main-1 {
+  width: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 450px;
+  transition: 0.5s;
+  margin: 100px 0px 100px 0px;
 }
 
 .box1 {
-    height: 200px;
-    width: 200px;
- 
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    
-    margin: 0px;
-    position: absolute;
-    z-index: 1;
-    top: 23px;
-    transition: 0.5s;
+  height: 200px;
+  width: 200px;
+
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+
+  margin: 0px;
+  position: absolute;
+  z-index: 1;
+  top: 23px;
+  transition: 0.5s;
 }
-.box1 img{
-    height: 50%;
-    width: 50%;
+.box1 img {
+  height: 50%;
+  width: 50%;
 }
 .box1 .Courses-button-component {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .box1 .read {
-    height: 36px;
-    width: 148px;
-    background-image: linear-gradient(62deg, #004a91 0, #985ad3 85%);
-    font-size: 17px;
-    color: #fff;
-    border: none;
-    border-radius: 6px;
-   
+  height: 36px;
+  width: 148px;
+  background-image: linear-gradient(62deg, #004a91 0, #985ad3 85%);
+  font-size: 17px;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
 }
-.main-1:hover .box1{
-  
-    z-index: 2;
-    transition: 0.5s;
+.main-1:hover .box1 {
+  z-index: 2;
+  transition: 0.5s;
 }
 .box1 h3 {
-    font-size: 20px;
-    color: #fff;
-    
-    font-weight: 700;
-    font-family: auto;
-    padding: 13px 0px 0px 0px;
+  font-size: 20px;
+  color: #fff;
+
+  font-weight: 700;
+  font-family: auto;
+  padding: 13px 0px 0px 0px;
 }
-.read:active{
-    margin: 2px;
+.read:active {
+  margin: 2px;
 }
-.dc:focus{
-    background-color:#fff2f2;
+.dc:focus {
+  background-color: #fff2f2;
 }
 
 /* main div css end */
 
-
 /* dev div start */
 
-
-
-
-  .dev {
-    height: 449px;
-    width: 100%;
-    position: absolute;
-    background-color: transparent;
-    z-index: 99;
-    text-align: left;
-    border-radius: 10px;
+.dev {
+  height: 449px;
+  width: 100%;
+  position: absolute;
+  background-color: transparent;
+  z-index: 99;
+  text-align: left;
+  border-radius: 10px;
 }
 .dev img {
-    height: 20%;
-    width: 30%;
-    position: absolute;
-    top: 373px;
-    left: 298px;
-    filter: brightness(100%);
-    display: none;
+  height: 20%;
+  width: 30%;
+  position: absolute;
+  top: 373px;
+  left: 298px;
+  filter: brightness(100%);
+  display: none;
 }
-.dev h5{
-    font-size: 20px;
-    color: #fff;
-
-}
-
- .dev p{
-    font-size: 15px;
-    color: #fff;
-    padding: 0px 0px 0px 10px;
-}
-.dev ul{
-    float: left;
-    margin: 0px 0px 0px 0px;
-}
-.dev ul li{
-    list-style: number;
-    color: #fff;
-    font-size: 14px;
+.dev h5 {
+  font-size: 20px;
+  color: #fff;
 }
 
-
-
+.dev p {
+  font-size: 15px;
+  color: #fff;
+  padding: 0px 0px 0px 10px;
+}
+.dev ul {
+  float: left;
+  margin: 0px 0px 0px 0px;
+}
+.dev ul li {
+  list-style: number;
+  color: #fff;
+  font-size: 14px;
+}
 
 #info {
-    height: 30px;
-    width: 200px;
-    background: linear-gradient(45deg, #364fa7, #985bd4);
-    color: #fff;
-    text-align: left;
-    padding: 0px 0px 0px 11px;
-    border-top-right-radius: 54px;
-    margin: 9px 0px 9px 9px;
-    font-family: fangsong;
-    text-shadow: 0px 0px 2px #000;
+  height: 30px;
+  width: 200px;
+  background: linear-gradient(45deg, #364fa7, #985bd4);
+  color: #fff;
+  text-align: left;
+  padding: 0px 0px 0px 11px;
+  border-top-right-radius: 54px;
+  margin: 9px 0px 9px 9px;
+  font-family: fangsong;
+  text-shadow: 0px 0px 2px #000;
 }
-#info h1{
-    font-size: 55px;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
-    color: transparent;
-    
+#info h1 {
+  font-size: 55px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  color: transparent;
 }
 svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.icon.css-i4bv87-MuiSvgIcon-root {
-    font-size: 38px;
-    background: #925ad0;
-    border-radius: 50%;
-    padding: 7px;
-    margin: 11px 0px 0px 8px;
-}
-
-/* Responsive Start */
-
-
-/* Responsive size 280px to 414px  */
-
-@media only screen and (min-width: 350px) and (max-width: 576px) {
-    #crd {
-        height: auto;
-        width: 100%;
-        box-shadow: 0px 0px 5px;
-        margin: 0px 0px 0px 0px;
-        padding: 35px 0px 0px 0px;
-        text-align: center;
-        align-items: center;
-        background-image: url(http://localhost:3000/static/media/study.b38235f0adcd51a6cd0f.jpg);
-        background-size: cover;
-        background-attachment: fixed;
-        filter: brightness(90%);
-        position: relative;
-        background-blend-mode: multiply;
-    }
-    #crd h1 {
-        font-size: 40px;
-        color: transparent;
-        font-family: primary;
-        text-shadow: 1px 0px 0px #fff;
-        font-weight: 500;
-        position: absolute;
-        padding: 0px 0px 0px 0px;
-        top: 50px;
-        left: 0px;
-    }
-    .Display {
-        height: 90vh;
-        position: relative;
-        border-radius: 10px;
-        margin: 100px 0px 100px 0px;
-    }
-    #info {
-        height: 30px;
-        width: 150px;
-        background: linear-gradient(45deg, #364fa7, #985bd4);
-        color: #fff;
-        text-align: left;
-        padding: 0px 0px 0px 11px;
-        border-top-right-radius: 54px;
-        margin: 9px 0px 9px 9px;
-        font-family: fangsong;
-        text-shadow: 0px 0px 2px #000;
-        display: flex;
-        justify-content: start;
-        align-items: center;
-    }
-    .dev h5,h4 {
-        font-size: 14px;
-        color: #fff;
-        margin: 0;
-    }
-    .dev p {
-        font-size: 8px;
-        color: #fff;
-        padding: 0px 0px 0px 10px;
-    }
-    .dev ul li {
-        list-style: number;
-        color: #fff;
-        font-size: 8px;
-    }
-    .dc {
-        width: 100%;
-        height: 150px;
-        /* box-shadow: 0px 0px 1px #fff; */
-        margin: 0px 0px 20px 0px;
-        padding: 0px 0px 0px 0px;
-        position: relative;
-        /* border: 1px solid #fff; */
-        background-color: #483f3f82;
-        display: flex;
-        justify-content: center;
-    }
-    .dc::before {
-        content: '';
-        position: absolute;
-        top: 0%;
-        left: 5%;
-        height: 95%;
-        width: 90%;
-        border: 2px solid rgb(153 91 212);
-        clip-path: circle(20% at 0 0);
-        transform: rotateZ(180deg);
-        transition: 0.8s;
-        display: none;
-    }
-    .dc::after {
-        content: '';
-        position: absolute;
-        top: 5%;
-        left: 5%;
-        height: 95%;
-        width: 90%;
-        border: 2px solid #1e4d9c;
-        clip-path: circle(20% at 0 0);
-        transition: 0.8s;
-        display: none;
-
-    }
-    .box1 {
-        height: 85%;
-        width: 80%;
-        text-align: center;
-        margin: 0px;
-        position: absolute;
-        z-index: 1;
-        top: 5px;
-        display: flex;
-        justify-content: start;
-        align-items: center;
-        flex-direction: column;
-        transition: 0.5s;
-    }
-    .box1 img {
-        height: 40%;
-        width: 40%;
-    }
-    .box1 h3 {
-        font-size: 14px;
-        color: #fff;
-        font-weight: 700;
-        font-family: auto;
-        padding: 13px 0px 0px 0px;
-    }
-    .box1 .read {
-        height: 30px;
-        width: 100px;
-        background-image: linear-gradient(62deg, #004a91 0, #985ad3 85%);
-        font-size: 12px;
-        color: #fff;
-        border: none;
-        border-radius: 6px;
-    }
+  font-size: 38px;
+  background: #925ad0;
+  border-radius: 50%;
+  padding: 7px;
+  margin: 11px 0px 0px 8px;
 }
