@@ -85,8 +85,7 @@ const Number_count = () => {
                             <div className='box_of_numbers'>
                                 <span ref={count4Ref} className="display-4">0</span>
                                 <small>+</small>
-                                <b>Year</b>
-                                <p>Experience</p>
+                                <p> Year Experience</p>
                             </div>
                         </div>
                     </div>

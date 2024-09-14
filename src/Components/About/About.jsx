@@ -1,5 +1,6 @@
 import React, { useRef } from 'react'
 import './About.css'
+import './AboutRes.css'
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
@@ -66,7 +67,7 @@ const About = () => {
                                 <h2 ref={Had}>IT Training & Coaching in Chomu</h2>
                             </div>
                         </div>
-                        <div className="col-md-6 col-sm-6">
+                        <div className="col-md-6 col-sm-7">
                             <div className="About_section-component">
                                 <video width="100%" height="100%" controls loop>
                                     <source src="img/main-v.mp4" type="video/mp4" />
@@ -74,7 +75,7 @@ const About = () => {
                                 </video>
                             </div>
                         </div>
-                        <div className="col-md-6 col-sm-6">
+                        <div className="col-md-6 col-sm-5">
                             <div className="About_section-text-component">
                                 <h2>ABOUT US</h2>
                                 <p> <b> Ar Square it institute of technology in Chomu </b> which teaches you IT courses according to your choice and interest. It has been 5+ years that our institute is doing great and working with highly expert professionals that has made us the <b> Best IT Training Institute in Chomu</b>. We have been constantly teaching students of BCA, MCA, B.Tech and working professionals in Chomu.</p>

@@ -1,5 +1,6 @@
 import React, { useRef } from 'react'
 import './features.css'
+import './FeatureRes.css'
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
@@ -81,21 +82,21 @@ const Features_expoler = () => {
                             </div>
                         </div>
 
-                        <div ref={Box1} className="col-md-4 col-sm-6">
+                        <div ref={Box1} className="col-md-4 col-sm-4">
                             <div className="Features_expoler-content">
                                 <img src="img/Global Certificates.png" alt="f1" />
                                 <h2>Global Certificates</h2>
                                 <p>It is a dedicated section that showcases the globally recognized certifications we offer. These certifications enhance your career prospects in various domains </p>
                             </div>
                         </div>
-                        <div ref={Box2} className="col-md-4 col-sm-6">
+                        <div ref={Box2} className="col-md-4 col-sm-4">
                             <div className="Features_expoler-content">
                                 <img src="img/Live Projects.png" alt="f2" />
                                 <h2>Live Projects</h2>
                                 <p>We offers hands-on training experiences where students work on real-world projects, applying their skills and knowledge to solve practical challenges.</p>
                             </div>
                         </div>
-                        <div ref={Box3} className="col-md-4 col-sm-6">
+                        <div ref={Box3} className="col-md-4 col-sm-4">
                             <div  className="Features_expoler-content">
                                 <img src="img/Placement.png" alt="f3" />
                                 <h2>Placement Assistance</h2>

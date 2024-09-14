@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./C.css";
+import "./CRes.css";
 import AddIcCallIcon from "@mui/icons-material/AddIcCall";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import EmailIcon from "@mui/icons-material/Email";
@@ -24,7 +25,7 @@ const Courses = () => {
         <div className="main-1">
           <div className="row">
             {/* small card div start */}
-            <div className="col-md-4 col-sm-12 col-12">
+            <div className="col-lg-4 col-md-6 col-sm-12 col-12">
               <div className="dc">
                 <div className="box1" onClick={() => handleClick(<Van />)}>
                   <img src="/img/development.png" alt="" />
@@ -38,7 +39,7 @@ const Courses = () => {
             </div>
             {/* small card div end */}
             {/* small card div start */}
-            <div className="col-md-4 col-sm-12 col-12">
+            <div className="col-lg-4 col-md-6 col-sm-12 col-12">
               <div className="dc">
                 <div className="box1" onClick={() => handleClick(<Wd />)}>
                   <img src="/img/html.png" alt="" />
@@ -52,7 +53,7 @@ const Courses = () => {
             </div>
             {/* small card div end */}
             {/* small card div start */}
-            <div className="col-md-4 col-sm-12 col-12">
+            <div className="col-lg-4 col-md-6 col-sm-12 col-12">
               <div className="dc">
                 <div className="box1" onClick={() => handleClick(<Gd />)}>
                   <img src="/img/garaphic.png" alt="" />
@@ -65,7 +66,7 @@ const Courses = () => {
             </div>
             {/* small card div end */}
             {/* small card div start */}
-            <div className="col-md-4 col-sm-12 col-12">
+            <div className="col-lg-4 col-md-6 col-sm-12 col-12">
               <div className="dc">
                 <div className="box1" onClick={() => handleClick(<Excel />)}>
                   <img src="/img/pngwing.com.png" alt="" />
@@ -78,7 +79,7 @@ const Courses = () => {
             </div>
             {/* small card div end */}
             {/* small card div start */}
-            <div className="col-md-4 col-sm-12 col-12">
+            <div className="col-lg-4 col-md-6 col-sm-12 col-12">
               <div className="dc">
                 <div className="box1" onClick={() => handleClick(<Pally />)}>
                   <img src="/img/tally2.png" alt="" />
@@ -91,7 +92,7 @@ const Courses = () => {
             </div>
             {/* small card div end */}
             {/* small card div start */}
-            <div className="col-md-4 col-sm-12 col-12">
+            <div className="col-lg-4 col-md-6 col-sm-12 col-12">
               <div className="dc">
                 <div className="box1" onClick={() => handleClick(<Com />)}>
                   <img src="/img/app.png" alt="" />
@@ -104,7 +105,7 @@ const Courses = () => {
             </div>
             {/* small card div end */}
             {/* small card div start */}
-            <div className="col-md-4 col-sm-12 col-12">
+            <div className="col-lg-4 col-md-6 col-sm-12 col-12">
               <div className="dc">
                 <div className="box1" onClick={() => handleClick(<Science />)}>
                   <img src="/img/science.png" alt="" />
@@ -117,7 +118,7 @@ const Courses = () => {
             </div>
             {/* small card div end */}
             {/* small card div start */}
-            <div className="col-md-4 col-sm-12 col-12">
+            <div className="col-lg-4 col-md-6 col-sm-12 col-12">
               <div className="dc">
                 <div
                   className="box1"
@@ -132,7 +133,7 @@ const Courses = () => {
               </div>
             </div>
             {/* small card div end */} {/* small card div start */}
-            <div className="col-md-4 col-sm-12 col-12">
+            <div className="col-lg-4 col-md-6 col-sm-12 col-12">
               <div className="dc">
                 <div className="box1" onClick={() => handleClick(<Machine />)}>
                   <img src="/img/mac.png" alt="" />
@@ -144,7 +145,7 @@ const Courses = () => {
               </div>
             </div>
             {/* small card div end */} {/* small card div start */}
-            <div className="col-md-4 col-sm-12 col-12">
+            <div className="col-lg-4 col-md-6 col-sm-12 col-12">
               <div className="dc">
                 <div className="box1" onClick={() => handleClick(<Vfx />)}>
                   <img src="/img/vfx.png" alt="" />
@@ -156,7 +157,7 @@ const Courses = () => {
               </div>
             </div>
             {/* small card div end */} {/* small card div start */}
-            <div className="col-md-4 col-sm-12 col-12">
+            <div className="col-lg-4 col-md-6 col-sm-12 col-12">
               <div className="dc">
                 <div className="box1" onClick={() => handleClick(<Video />)}>
                   <img src="/img/vid.png" alt="" />
@@ -169,7 +170,7 @@ const Courses = () => {
             </div>
             {/* small card div end */}
             {/* small card div start */}
-            <div className="col-md-4 col-sm-12 col-12">
+            <div className="col-lg-4 col-md-6 col-sm-12 col-12">
               <div className="dc">
                 <div
                   className="box1"
@@ -185,7 +186,7 @@ const Courses = () => {
             </div>
             {/* small card div end */}
             {/* small card div start */}
-            <div className="col-md-4 col-sm-12 col-12">
+            <div className="col-lg-4 col-md-6 col-sm-12 col-12">
               <div className="dc">
                 <div className="box1" onClick={() => handleClick(<Hacking />)}>
                   <img src="/img/hack1.png" alt="" />
@@ -198,7 +199,7 @@ const Courses = () => {
             </div>
             {/* small card div end */}
             {/* small card div start */}
-            <div className="col-md-4 col-sm-12 col-12">
+            <div className="col-lg-4 col-md-6 col-sm-12 col-12">
               <div className="dc">
                 <div className="box1" onClick={() => handleClick(<Digital />)}>
                   <img src="/img/digital1.png" alt="" />
@@ -211,7 +212,7 @@ const Courses = () => {
             </div>
             {/* small card div end */}
             {/* small card div start */}
-            <div className="col-md-4 col-sm-12 col-12">
+            <div className="col-lg-4 col-md-6 col-sm-12 col-12">
               <div className="dc">
                 <div className="box1" onClick={() => handleClick(<Banking />)}>
                   <img src="/img/bank.png" alt="" />
