@@ -84,7 +84,6 @@ const Placement = () => {
             <li>100% Placement Assistance</li>
           </ul>
 
-          <img src="/img/100-job-assistance-digital-marketing-program.webp" alt="" />
         </div>
       </div>
     </>

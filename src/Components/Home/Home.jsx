@@ -60,7 +60,7 @@ const Home = () => {
       {/* footer section start */}
 
       <div id="foot">
-        <div className="container">
+        <div className="container-fluid">
           <div className="row">
             <Footer />
           </div>
