@@ -1,14 +1,106 @@
-img.w-auto.h-9 {
-    height: 124px;
+footer {
+    background-color: #012e57;;
+    color: #a7a7a7;
+    font-size: 16px;
+    position: relative;
+    top: -14px;
+    height: auto;
+  }
+  footer * {
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+  }
+  .row {
+    padding: 1em 1em;
+  }
+  .row.primary {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 2fr;
+    align-items: stretch;
+    /* position: relative;
+    top: 19px; */
+}
+  .column {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 2em;
+    min-height: 15em;
+  }
+  .column h3 {
+    width: 100%;
+    text-align: left;
+    color: white;
+    font-size: 1.4em;
+    white-space: nowrap;
+    font-family: fangsong;
+}
+  .column ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    transition: 0.5s;
+  }
+  li:not(:first-child) {
+    margin-top: 0.8em;
+    transition: 0.5s;
+  }
+  ul li a {
+    color: #a7a7a7;
+    text-decoration: none;
+    transition: 0.5s;
+  }
+  ul li a:hover {
+    color: #ffffff;
+    padding-left: 10px;
+}
+  .about p {
+    text-align: justify;
+    
+    margin: 0;
+  } 
+  .social i {
+    color: #bac6d9;
+  }
+  
+  .copyright {
+    padding: 0.3em 1em;
+    background-color: #25262e;
+  }
+  .footer-menu{
+    float: left;
+      margin-top: 10px;
+  }
+  
+  .footer-menu a{
+    color: #cfd2d6;
+    padding: 6px;
+  
+    text-decoration: none;
+  }
+  .footer-menu a:hover{
+    color: #27bcda;
+  }
+  .copyright p {
+    font-size: 0.9em;
+    text-align: right;
+  }
+  img.logofooter {
+    width: 39%;
+    height: 46%;
     border-radius: 50%;
-    margin-top: -26px;
+    padding: 10px 10px 10px 10px;
 }
-small {
-    padding-left: 13px;
+iframe {
+    height: 306px;
 }
-.text-gray-400 {
-    --tw-text-opacity: 14;
-    color: rgb(105 152 58);
-    font-family: auto;
-    font-size: 19px;
-}
+  @media screen and (max-width: 850px) {
+    .row.primary {
+      grid-template-columns: 1fr;
+    }
+  
+  }

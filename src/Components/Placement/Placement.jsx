@@ -38,7 +38,7 @@ const Placement = () => {
 
   return (
     <>
-      <div className="col-md-5 col-sm-7 col-12">
+      <div className="col-md-5 col-sm-12 col-12">
         <div className="sldd">
           <Swiper
             effect={'cards'}
@@ -70,7 +70,7 @@ const Placement = () => {
         </div>
       </div>
 
-      <div className="col-md-7 col-sm-5 col-12">
+      <div className="col-md-7 col-sm-12 col-12">
         <div className="arintro">
           <h4>Welcome to <b>AR Square </b>IT Institute!</h4>
           <p>Empowering the next generation with cutting-edge technology and language skills. Our expert trainers and state-of-the-art facilities ensure you gain the practical experience needed to excel in today’s competitive world. Join us to boost your career prospects and <mark> achieve your dreams! </mark></p>
